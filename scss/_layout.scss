@@ -1,4 +1,4 @@
 @mixin inline-block-collapsed {
   display: inline-block;
-  margin-right: -1em; // remove undesirable spacing between elements
+  margin-right: -4px; // remove undesirable spacing between elements
 }
