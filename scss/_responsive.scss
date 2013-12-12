@@ -1,0 +1,13 @@
+@mixin width-between($break-small, $break-large) {
+  @media (min-width: $break-small) and (max-width: $break-large) {
+    @content;
+  }
+}
+
+@mixin width-above($break) {
+  @include width-between($break, 9999px) { @content; }
+}
+
+@mixin width-below($break) {
+  @include width-between(0, $break) { @content; }
+}
