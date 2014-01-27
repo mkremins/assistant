@@ -5,3 +5,11 @@
        -o-#{$name}: #{$value};
           #{$name}: #{$value};
 }
+
+@mixin prefix-value($name, $value) {
+  #{$name}: -webkit-#{$value};
+  #{$name}:    -moz-#{$value};
+  #{$name}:     -ms-#{$value};
+  #{$name}:      -o-#{$value};
+  #{$name}:         #{$value};
+}
