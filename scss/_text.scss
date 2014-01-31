@@ -1,8 +1,9 @@
-%text-content {
-  font-family: Georgia;
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 15px;
-  line-height: 1.5;
-  blockquote,h1,h2,h3,h4,h5,h6,ol,p,pre,table,ul {
-    margin-bottom: 20px;
-  }
+  line-height: 1.4;
+}
+
+blockquote, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul {
+  margin-bottom: 1rem;
 }
